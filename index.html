@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dice Game</h1>
+        <h2>Made by: Dimitar Velikov</h2>
+        <div class="social-media">
+            <a href="https://github.com/yourusername" target="_blank">
+                <img src="images/github_logo.png" alt="GitHub">
+            </a>
+            <a href="https://socialmedia.com/yourprofile" target="_blank">
+                <img src="images/bcit_logo.png" alt="BCIT">
+            </a>
+        </div>
+    </header>
+    <main id="game">
+        <div id="gameBoard">
+            <div id="player">
+                <h3>Player</h3>
+                <div id="playerDice" class="dice">
+                    <img id="playerDie1" src="images/luka.jpg" alt="Die 1">
+                    <img id="playerDie2" src="images/dice1.jpg" alt="Die 2">
+                </div>
+                <p id="playerScore">Score: 0</p>
+            </div>
+            <div id="computer">
+                <h3>Computer</h3>
+                <div id="computerDice" class="dice">
+                    <img id="computerDie1" src="images/bunny.jpg" alt="Die 1">
+                    <img id="computerDie2" src="images/dice2.jpg" alt="Die 2">
+                </div>
+                <p id="computerScore">Score: 0</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="rollButton" class="fade-button">Roll Dice</button>
+            <button id="resetButton" class="fade-button">Reset Game</button>
+        </div>
+        <p id="result"></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dice Game. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
